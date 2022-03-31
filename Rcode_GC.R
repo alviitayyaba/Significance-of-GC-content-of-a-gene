@@ -3,7 +3,7 @@ library(Biostrings)
 library(seqinr)
 
 ##download following sequences from NCBI
-f <- read.fasta("mart_export.txt") ##file containing random genes sequences 
+f <- read.fasta("mart_export.txt") ##The mart_export.txt file contains all the genes on chromosome1 and their sequence downloaded from biomart 
 ABO <- read.fasta("ABO.fa.txt")    ## file containing sequence of ABO gene
 PITX2 <- read.fasta("PITX2.txt")   ## file containing sequence of PITX2 gene
 lenABO <- ABO[[1]]

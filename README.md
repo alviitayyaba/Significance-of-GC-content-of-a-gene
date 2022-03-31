@@ -1,0 +1,2 @@
+# Significance-of-GC-content-of-a-gene
+The GC Content as a Main Factor Shaping the Amino Acid Usage. In bioinformatics experiments we often need to calculate the GC content and see if it is different than the rest of genes. This code uses gene sequences and calculate their GC content as well compare the GC content of gene of interest with random genes of similar length and report the significance using t-tes.
